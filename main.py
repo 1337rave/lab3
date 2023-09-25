@@ -1,4 +1,5 @@
-try:
-    pass
-except Exception as (e):
-    print(e)
+number = int(input("Введіть число: "))
+if number % 7 == 0:
+    print(f"{number} - Number is a multiple of 7.")
+else:
+    print(f"{number} - Number is not a multiple of 7.")
